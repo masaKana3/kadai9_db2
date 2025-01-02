@@ -186,6 +186,18 @@ h3 {
     transform: translateY(0); /* クリック時に戻る */
 }
 
+.login-container {
+    display: block; /* ボタンを縦に配置 */
+    width: 80%;
+    max-width: 500px;
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
 /* 表全体のスタイル */
 table {
     width: 100%;
