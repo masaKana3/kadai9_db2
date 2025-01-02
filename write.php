@@ -102,7 +102,7 @@
                 ? "なし" 
                 : implode(', ', array_map(fn($c) => h($c), $condition)) ?></p>
         </div>
-        <button id="to-read" onclick="location.href='read.php'">結果を見る</button>
+        <button id="to-read" onclick="location.href='login.php'">結果を見る</button>
     </div>
 </body>
 </html>
